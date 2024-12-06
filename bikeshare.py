@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 
 #test change 1
+#test change 2
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
@@ -10,7 +11,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 
 def get_filters():
     """
-    Asks user to specify a city, month, and day to analyze.
+    Please ask user to specify a city, month, and day to analyze.
 
     Returns:
         (str) city - name of the city to analyze
